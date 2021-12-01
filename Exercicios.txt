@@ -1,0 +1,10 @@
+Exercício 28. Cangurus
+Exercício 36. Número palíndromo
+Exercício 37. Temperaturas acima da média
+Exercício 43. Troca valores adjacentes
+Exercício 46. Vetores de pares e ímpares
+Exercício 67. Intercalação de vetores ordenados
+Exercício 69. Anagrama
+Exercício 70. Molécula de DNA
+Exercício 72. Ler e escrever várias datas
+Exercício 75. Cadastro de alunos
