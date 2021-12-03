@@ -2,10 +2,11 @@
 
 int main(){
 
-    //Variáveis
+    //Variáveis start1 = ponto inicial, vel = velocidade, startdiff = diferenca posicao inicial
     int start1, start2, startdiff;
     int vel1, vel2, veldiff;
-    int resultado, resultado2;
+    int cruzamentoint, cruzamentoPositivo;
+    
     //Scanner
     scanf("%d %d",&start1, &vel1);
     scanf("%d %d",&start2, &vel2);
@@ -16,12 +17,12 @@ int main(){
         return (printf("NAO\n"));
     }
     //Calcula se o momento que eles cruzam é inteiro
-    resultado = startdiff%(veldiff*(-1));
+    cruzamentoint = startdiff%(veldiff*(-1));
     //Calcula se o momento que eles cruzam é valido, ou seja >0
-    resultado2 = startdiff/(veldiff*(-1));
+    cruzamentoPositivo = startdiff/(veldiff*(-1));
     
     //Faz as verificações
-    if (resultado == 0 && resultado2 >0){
+    if (cruzamentoint == 0 && cruzamentoPositivo >0){
         printf ("SIM\n");
         }
         else {

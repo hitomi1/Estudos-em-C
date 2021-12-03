@@ -4,6 +4,7 @@ int main(){
 
     //Variáveis
     int numero, reverso = 0, num_aux, aux;
+    
     //Scanner
     scanf("%d",&numero);
 
@@ -19,8 +20,10 @@ int main(){
     //Inverte o numero inicial
     while (num_aux >0){
         aux = num_aux % 10;
+        //printf("\n%d %d\n", num_aux, aux);
         reverso = reverso * 10 + aux;
         num_aux = num_aux / 10;
+        //printf("%d %d\n", num_aux, reverso);
     }
 
     //Verifica se e palindromo, inicial = reverso
